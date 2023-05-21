@@ -11,7 +11,7 @@ const initialState = {
 
 }
 
-export default function page() {
+export default function Feedback() {
   const [data, setData] = useState(initialState);
   const router = useRouter();
   const handleChange = (e : ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
